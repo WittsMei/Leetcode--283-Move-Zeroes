@@ -6,15 +6,6 @@
 This repo contains my clean and well-documented solutions to selected **LeetCode problems**, primarily using **Python**.  
 Each problem is organized by its ID and includes an explanation, solution code, and complexity analysis.
 
----
-
-## 📌 Progress
-
-| #   | Title         | Difficulty | Tags            | Solution Link                |
-|-----|---------------|------------|------------------|------------------------------|
-| 283 | Move Zeroes   | Easy       | Array, Two Pointers | [🔗 Solution](0283-move-zeroes/) |
-
----
 
 ## 🧰 Languages & Tools
 
@@ -22,8 +13,6 @@ Each problem is organized by its ID and includes an explanation, solution code, 
 - Markdown
 - Git / GitHub
 
-
-from typing import List
 
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
