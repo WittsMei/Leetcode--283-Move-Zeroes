@@ -24,6 +24,7 @@ Output: `[0]`
 
 - Python 3.0
 
+## Solution
 ```python
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
