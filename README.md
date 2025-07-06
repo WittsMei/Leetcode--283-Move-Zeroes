@@ -20,7 +20,7 @@ Input: `nums = [0]`
 Output: `[0]`
  
 
-## Languages
+## Language
 
 - Python 3.0
 
