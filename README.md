@@ -23,8 +23,6 @@ Output: `[1, 3, 12, 0, 0]`
 ## 🧰 Languages & Tools
 
 - Python 3.0
-- Markdown
-- Git / GitHub
 
 ```python
 class Solution:
@@ -39,6 +37,7 @@ class Solution:
             if nums[i] != 0:
                 nums[i], nums[firstzero] = nums[firstzero], nums[i]
                 firstzero += 1
+
 
 ## Explanation
 
