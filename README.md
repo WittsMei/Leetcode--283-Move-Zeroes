@@ -1,11 +1,3 @@
-# Leetcode-283-Move-Zeroes
-
-
-# 🧠 LeetCode Solutions by Witts
-
-This repo contains my clean and well-documented solutions to selected **LeetCode problems**, primarily using **Python**.  
-Each problem is organized by its ID and includes an explanation, solution code, and complexity analysis.
-
 # LeetCode 283 - Move Zeroes
 
 **Difficulty:** Easy  
@@ -20,7 +12,7 @@ Given an integer array `nums`, move all `0`'s to the end of it while maintaining
 Input: `[0, 1, 0, 3, 12]`  
 Output: `[1, 3, 12, 0, 0]`
 
-## 🧰 Languages & Tools
+## Languages
 
 - Python 3.0
 
