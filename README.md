@@ -18,14 +18,9 @@ Each problem is organized by its ID and includes an explanation, solution code, 
 
 ## 🧰 Languages & Tools
 
-- Python 3.x
+- Python 3.0
 - Markdown
 - Git / GitHub
-
-
-# LeetCode Problem 283 - Move Zeroes
-# Difficulty: Easy
-# Tags: Array, Two Pointers
 
 
 from typing import List
