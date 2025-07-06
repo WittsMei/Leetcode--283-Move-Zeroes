@@ -1,4 +1,4 @@
-# Leetcode--283-Move-Zeroes
+# Leetcode-283-Move-Zeroes
 
 
 # 🧠 LeetCode Solutions by Witts
