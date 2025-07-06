@@ -26,12 +26,3 @@ class Solution:
             if nums[i] != 0:
                 nums[i], nums[firstzero] = nums[firstzero], nums[i]
                 firstzero += 1
-
-        chunks = await self.document_search.search(message)
-        prompt = QuestionAnswerPrompt(QuestionAnswerPromptInput(question=message, context=chunks))
-        async for text in self.llm.generate_streaming(prompt):
-            yield self.create_text_response(text)
-
-if __name__ == "__main__":
-    api = RagbitsAPI(MyChat)
-    api.run()
