@@ -1,7 +1,7 @@
 # LeetCode 283 - Move Zeroes
 
-* Difficulty: * Easy  
-* Tags: * Array, Two Pointers
+**Difficulty:** Easy  
+**Tags:** Array, Two Pointers
 
 ## Problem Description
 
