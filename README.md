@@ -6,6 +6,19 @@
 This repo contains my clean and well-documented solutions to selected **LeetCode problems**, primarily using **Python**.  
 Each problem is organized by its ID and includes an explanation, solution code, and complexity analysis.
 
+# LeetCode 283 - Move Zeroes
+
+**Difficulty:** Easy  
+**Tags:** Array, Two Pointers
+
+## Problem Description
+
+Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
+
+## Example
+
+Input: `[0, 1, 0, 3, 12]`  
+Output: `[1, 3, 12, 0, 0]`
 
 ## 🧰 Languages & Tools
 
@@ -26,3 +39,8 @@ class Solution:
             if nums[i] != 0:
                 nums[i], nums[firstzero] = nums[firstzero], nums[i]
                 firstzero += 1
+
+## Explanation
+
+Use a two-pointer approach: one pointer `firstzero` tracks the next zero position to fill, while the loop pointer traverses the list.
+
