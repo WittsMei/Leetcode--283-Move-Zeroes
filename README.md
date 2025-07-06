@@ -1,6 +1,5 @@
 # Leetcode--283-Move-Zeroes
 
-
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         firstzero = 0
