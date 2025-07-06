@@ -37,7 +37,7 @@ class Solution:
             if nums[i] != 0:
                 nums[i], nums[firstzero] = nums[firstzero], nums[i]
                 firstzero += 1
-
+```
 
 ## Explanation
 
